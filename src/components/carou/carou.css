@@ -1,0 +1,57 @@
+/* Dark theme Carousel */
+.res {
+    border: 2px solid black;
+}
+.carousel {
+    width: 100vw;
+    max-width: 800px; /* Adjust width as needed */
+    background-color: #0d0d0d; /* Dark background */
+  }
+  
+  /* Carousel images */
+  .carousel img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  /* Carousel caption */
+  .Carousel.Caption {
+    position: relative;
+    right: 0%;
+    bottom: 1.25rem;
+    left: 45%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+  /* Caption heading */
+  .carousel-caption h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  /* Caption paragraph */
+  .carousel-caption p {
+    font-size: 14px;
+    margin: 0;
+    color: #cccccc;
+  }
+  
+  /* Dark theme controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1); /* Makes the control arrows white */
+  }
+  

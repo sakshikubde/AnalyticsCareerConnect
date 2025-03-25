@@ -1,0 +1,122 @@
+/*
+@media screen and (max-width: 337px) and (max-height: 651px) {
+    .programs {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; /* Add spacing between items 
+    }
+    */
+    /*
+    .program {
+        flex-basis: 100%; /* Make each program take full width */
+       /* max-width: 300px; /* Set a max-width to prevent stretching 
+    }
+}
+*/
+/*
+.programs{
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.program p{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.program{
+    flex-basis: calc(25% - 25px);
+    position: relative;
+}
+.caption{
+
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer ;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.caption img{
+width: 60px;
+margin-bottom: 10px;
+}
+
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+} */
+
+.analytics-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .analytics-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .info-item {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 40px); /* Responsive width */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .info-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .info-container p {
+    font-size: 16px;
+    color: #000000;
+    margin: 10px 0;
+}
+  
+  @media (max-width: 768px) {
+    .info-item {
+      flex: 1 1 calc(50% - 40px); /* Adjust layout for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .info-item {
+      flex: 1 1 100%; /* Full width on extra small screens */
+    }
+  }
